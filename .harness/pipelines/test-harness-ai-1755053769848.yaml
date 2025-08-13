@@ -34,7 +34,7 @@ pipeline:
                     repo: jlq6902/test-harness-ai
                     tags:
                       - latest
-                    caching: true
+                    caching: false
                   timeout: ""
                   type: BuildAndPushDockerRegistry
           platform:
