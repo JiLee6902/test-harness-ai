@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_JiLee6902_test_harness_ai_1755053774452-push-trigger-input-set
+  identifier: Build_JiLee6902_test_harness_ai_1755053774452pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Firtst_Project
+  pipeline:
+    identifier: Build_JiLee6902_test_harness_ai_1755053774452
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

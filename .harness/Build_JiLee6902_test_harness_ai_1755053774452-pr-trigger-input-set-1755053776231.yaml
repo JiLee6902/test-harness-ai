@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_JiLee6902_test_harness_ai_1755053774452-pr-trigger-input-set
+  identifier: Build_JiLee6902_test_harness_ai_1755053774452prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Firtst_Project
+  pipeline:
+    identifier: Build_JiLee6902_test_harness_ai_1755053774452
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
